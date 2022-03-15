@@ -1,0 +1,14 @@
+hr.line{
+  border: 5px solid black;
+  border-radius: 5px;
+
+}
+
+hr {
+  opacity: 1 !important;
+  width: 10% ;
+}
+
+.contents{
+  width: 60em;
+}
