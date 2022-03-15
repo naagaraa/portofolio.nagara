@@ -5,7 +5,7 @@ export default function contents() {
       <div className="row contents">
         <div className="col">
           <h5>Orion Scanner</h5>
-          <p>this is my final project, I'm build similarity detection for document indonesia langauge using algorithm winnowing and rabin-karp for comparison, i'm build this with php native, you can read more detail here</p>
+          <p>this is my final project, I&#39;m build similarity detection for document indonesia langauge using algorithm winnowing and rabin-karp for comparison, i&#39;m build this with php native, you can read more detail here</p>
         </div>
         <div className="col">
           <h5>Features</h5>
@@ -19,7 +19,7 @@ export default function contents() {
       <div className="row contents mt-5">
         <div className="col">
           <h5>Library PHP</h5>
-          <p>this is my package or library php I'm give name metode skripsi, basiclly this my personal tools, and in this libraries include algorithm most used in skripsi what i know and publish in packagist, you can read more detail here</p>
+          <p>this is my package or library php I&#39;m give name metode skripsi, basiclly this my personal tools, and in this libraries include algorithm most used in skripsi what i know and publish in packagist, you can read more detail here</p>
         </div>
         <div className="col">
           <h5>Features</h5>
@@ -43,7 +43,7 @@ export default function contents() {
       <div className="row contents mt-5">
         <div className="col">
           <h5>Shell Script</h5>
-          <p>this is self project for setup installation development envirotment when i'm using ubuntu and want install lamp stack or lemp stack and another tools. for more detail your can visit here</p>
+          <p>this is self project for setup installation development envirotment when i&#39;m using ubuntu and want install lamp stack or lemp stack and another tools. for more detail your can visit here</p>
         </div>
         <div className="col">
           <h5>Features</h5>
@@ -57,7 +57,7 @@ export default function contents() {
       <div className="row contents mt-5">
         <div className="col">
           <h5>Simple Blog</h5>
-          <p>when i'm intership i'm build company profile with code iginiter 3, because that's privated only for company i can't share. only this i can share. this result native simple blog, bassicly this build with my self-framework php. for more detail you can visit here.</p>
+          <p>when i&#39;m intership i&#39;m build company profile with code iginiter 3, because that&#39;s privated only for company i can&#39;t share. only this i can share. this result native simple blog, bassicly this build with my self-framework php. for more detail you can visit here.</p>
         </div>
         <div className="col">
           <h5>Features</h5>
@@ -72,7 +72,7 @@ export default function contents() {
       <div className="row contents mt-5 mb-5">
         <div className="col">
           <h5>Mini MVC PHP Native</h5>
-          <p>this is first my project start 2017 learn php and try build my framework for final project in my campus, and another reason my campus can't give me permission used codeigniter or laravel for final, and so i'm build and develop this framework to 2022. this framework publish in packagist, for more detail you can read here</p>
+          <p>this is first my project start 2017 learn php and try build my framework for final project in my campus, and another reason my campus can&#39;t give me permission used codeigniter or laravel for final, and so i&#39;m build and develop this framework to 2022. this framework publish in packagist, for more detail you can read here</p>
         </div>
         <div className="col">
           <h5>Features</h5>
