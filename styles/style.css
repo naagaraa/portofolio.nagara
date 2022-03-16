@@ -12,3 +12,7 @@ hr {
 .contents{
   width: 60em;
 }
+
+*{
+  background-color: rgb(240, 235, 235);
+}
