@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css"; // Add this line
 import Navbar from "../components/navbarAbout";
 import Footer from '../components/footer';
 import Image from "next/image";
-import Link from 'next/link'
+import Link from 'next/link';
 
 function About() {
   return (
@@ -63,9 +63,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+              height={150}
             />
         </div>
       </div>
@@ -82,9 +83,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -101,9 +103,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -120,9 +123,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
-              width={250}
+             width={250}
+               height={150}
             />
         </div>
       </div>
@@ -139,9 +143,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -159,9 +164,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -173,9 +179,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -192,9 +199,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -211,9 +219,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -225,9 +234,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -244,9 +254,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -263,9 +274,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -282,9 +294,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -301,9 +314,10 @@ function About() {
         <div className="col-md-5">
            <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
+               height={150}
             />
         </div>
       </div>
@@ -315,9 +329,10 @@ function About() {
         <div className="col-md-5">
           <Image
               className="img-thumbnail"
-              src="/favicon-32x32.png"
+              src="/sertif/olimpiade-komputer.png"
               alt="sertificate"
               width={250}
+              height={150}
             />
         </div>
       </div>
