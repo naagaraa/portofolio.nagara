@@ -13,14 +13,23 @@ export default function footer() {
             <div className="d-flex">
                <ul className="navbar-nav flex-row ">
                   <li className="nav-item me-5">
-                     <a className="nav-link active" aria-current="page" href="https://www.linkedin.com/in/nagara/">
+                     <a className="nav-link active" aria-current="page" href="https://www.linkedin.com/in/nagara/"
+                     target="_blank">
                         <h2>Linkedln</h2>
                      </a>
                   </li>
                   <li className="nav-item me-5">
                      <a className="nav-link active" aria-current="page"
-                        href="https://www.youtube.com/channel/UCYsZhw6Mlk23Q-nUPP9t1YA">
+                        href="https://www.youtube.com/channel/UCYsZhw6Mlk23Q-nUPP9t1YA"
+                        target="_blank">
                         <h2>Youtube</h2>
+                     </a>
+                  </li>
+                  <li className="nav-item me-5">
+                     <a className="nav-link active" aria-current="page"
+                        href="https://github.com/naagaraa"
+                        target="_blank">
+                        <h2>github</h2>
                      </a>
                   </li>
                   <li className="nav-item me-5">
