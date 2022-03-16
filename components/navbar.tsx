@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function navbar() {
   return (
-    <div className="container py-5 px-3">
+    <div className="container-fluid py-md-5 px-md-3">
       <nav className="navbar navbar-expand-lg navbar-light">
          <div className="container-fluid">
              <Link href="/">

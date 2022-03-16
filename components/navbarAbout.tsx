@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function navbarAbout() {
   return (
-    <div className="container py-5 px-3">
+    <div className="container-fluid py-md-5 px-md-3">
       <nav className="navbar navbar-expand-lg navbar-light">
          <div className="container-fluid">
             <Link href="/">
@@ -19,7 +19,7 @@ export default function navbarAbout() {
             </Link>
             <div className="d-flex">
                <ul className="navbar-nav">
-                  <li className="nav-item">\
+                  <li className="nav-item">
                   <Link href="/">
                      <a className="nav-link active" aria-current="page">
                         <h5>Home</h5>
