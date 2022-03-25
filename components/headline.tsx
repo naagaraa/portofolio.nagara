@@ -14,7 +14,7 @@ function headline() {
             <h1>with algorithm</h1>
             <br /><br />
             <h1>I&#39;m currenly learn golang for API</h1>
-            <h1>and kotlin for mobile, my background</h1>
+            <h1>and kotlin for mobile just for fun, my background</h1>
             <h1>came from PHP</h1>
             <hr className="line mt-5" />
          </div>

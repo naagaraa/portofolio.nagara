@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css"; // Add this line
 import Navbar from "../components/navbarAbout";
 import Footer from '../components/footer';
 import Image from "next/image";
@@ -9,6 +8,7 @@ function About() {
     <div className="container">
       <Navbar />
       <hr className="line mt-5" />
+
       <h3>Experience</h3>
       <div className="row mt-5">
         <div className="col-md-5">
@@ -49,9 +49,38 @@ function About() {
         </div>
       </div>
       <hr className="line mt-5" />
-      <h3>Sertification</h3>
+      
+      <h3>Technology</h3>
       <div className="row mt-5">
         <div className="col-md-5">
+          <h4>Programing Language</h4>
+          <ul>
+            <li><h5>PHP 7</h5></li>
+            <li><h5>Javascaript</h5></li>
+            <li><h5>OOP PHP</h5></li>
+            <li><h5>Python</h5></li>
+          </ul>
+          <h4 className="mt-5" >Framework Backend</h4>
+          <ul>
+            <li><h5>CodeIgniter</h5></li>
+            <li><h5>Laravel</h5></li>
+          </ul>
+          <h4 className="mt-5">Framework FrontEnd</h4>
+          <ul>
+            <li><h5>Next Js (Currently learn this one)</h5></li>
+            <li><h5>Vue JS (Currently learn this one)</h5></li>
+          </ul>
+          <h4 className="mt-5">Framework CSS</h4>
+          <ul>
+            <li><h5>Boostrap 5</h5></li>
+          </ul>
+        </div>
+      </div>
+      <hr className="line mt-5" />
+
+      <h3>Sertification</h3>
+      <div className="row mt-5">
+        <div className="col">
           <h5>IT Essentials: PC Hardware and Software</h5>
           <span>Cisco | Mar 2021</span>
           <p>credentials 
@@ -60,18 +89,18 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
               height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Web Security & Bug Bounty : Learn Penetration Testing in 2022</h5>
           <span>Udemy - ZTM | Jan 2021</span>
            <p>credentials 
@@ -80,38 +109,38 @@ function About() {
             </Link>
             </p>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Application Security and Secure Coding Training course in &#34;Front End Security Basics&#34;</h5>
           <span>checkmark | Agu 2020 - Agu 2021</span>
           <p>credentials 
             <Link href="https://certificates.codebashing.com/frontend_course_certificate_85c50e92d05e071f35773f5ae455ace3de80b466.pdf">
-              <a>85c50e92d05e071f35773f5ae455ace3de80b466</a>
+              <a className="overflow-auto" >85c50e92d05e071f35773f5ae455ace3de80b466</a>
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Application Security and Secure Coding Training course in &#34;HTTP Security Prinsiples&#34;</h5>
           <span>checkmark | Agu 2020 - Agu 2021</span>
            <p>credentials 
@@ -120,18 +149,18 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
              width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Application Security and Secure Coding Training course in &#34;PHP&#34;</h5>
           <span>checkmark | Agu 2020 - Agu 2021</span>
            <p>credentials 
@@ -140,19 +169,19 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
 
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Introduction to IoT</h5>
           <span>Cisco | Des 2020</span>
            <p>credentials 
@@ -161,33 +190,33 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>CCNA R&S :Introduction to Networks</h5>
           <span>Cisco | Jul 2020</span>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Architecting on AWS</h5>
           <span>Dicoding | Nov 2021 - Nov 2024</span>
            <p>credentials 
@@ -196,18 +225,18 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Clouds Practioner Essentials</h5>
           <span>Dicoding | Sep 2021 - Sep 2024</span>
            <p>credentials 
@@ -216,33 +245,33 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Full Stack Designer</h5>
           <span>Build With Angga | April 2020 - June 2020 3 month</span>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Belajar Dasar Visualisasi Data</h5>
           <span>Dicoding | Mei 2021 - Mei 2024</span>
           <p>credentials 
@@ -251,18 +280,18 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Memulai Pemrograman Dengan Python</h5>
           <span>Dicoding | Mar 2020 - Mar 2023</span>
           <p>credentials 
@@ -271,18 +300,18 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Belajar Membuat Aplikasi Android untuk Pemula</h5>
           <span>Dicoding | Sep 2019 - sep 2022</span>
           <p>credentials 
@@ -291,49 +320,49 @@ function About() {
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Belajar Dasar Pemrograman Web</h5>
           <span>Dicoding | Jun 2019 - Jun 2022</span>
            <p>credentials 
             <Link href="https://www.dicoding.com/certificates/N9ZODRM40PG5">
-              <a>N9ZODRM40PG5</a>
+              <a >N9ZODRM40PG5</a>
             </Link>
           </p>
         </div>
-        <div className="col-md-5">
-           <Image
+        <div className="col">
+           {/* <Image
               className="img-thumbnail"
               src="/sertif/it-essentials.png"
               alt="sertificate"
               width={250}
                height={150}
-            />
+            /> */}
         </div>
       </div>
       <div className="row mt-5">
-        <div className="col-md-5">
+        <div className="col">
           <h5>Peserta Olimpiade Sains Nasional tingkat kabupaten bekasi</h5>
           <span>Kabupaten Bekasi | Feb 2016</span>
         </div>
-        <div className="col-md-5">
-          <Image
+        <div className="col">
+          {/* <Image
               className="img-thumbnail"
               src="/sertif/olimpiade-komputer.png"
               alt="sertificate"
               width={250}
               height={150}
-            />
+            /> */}
         </div>
       </div>
       <Footer/>

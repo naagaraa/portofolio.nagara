@@ -1,18 +1,17 @@
-hr.line{
+hr.line {
   border: 5px solid black;
   border-radius: 5px;
-
 }
 
 hr {
   opacity: 1 !important;
-  width: 10% ;
+  width: 10%;
 }
 
-.contents{
+.contents {
   width: 60em;
 }
 
-*{
-  background-color: rgb(240, 235, 235);
+* {
+  /* background-color: rgb(240, 235, 235); */
 }

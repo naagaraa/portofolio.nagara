@@ -11,8 +11,8 @@ export default function footer() {
       </div>
       <div className="row">
         <div className="col">
-          <div className="d-flex">
-            <ul className="navbar-nav flex-row ">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <ul className="navbar-nav">
               <li className="nav-item me-5">
                 <Link href="https://www.linkedin.com/in/nagara/">
                   <a className="nav-link active" aria-current="page">
@@ -45,8 +45,8 @@ export default function footer() {
                   </a>
                 </Link>
               </li>
-            </ul>
-          </div>
+              </ul>
+          </nav>
         </div>
       </div>
     </div>
